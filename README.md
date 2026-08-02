@@ -41,7 +41,7 @@ the UI components, and the checkout simulation.
 
 | Homepage | Product Page | Cart |
 |----------|-------------|------|
-|*![Homepage](image-1.png)* *![Product Page](image.png)* | *![Checkout Page](image-2.png)*
+|*![Homepage](image-1.png)* *![Product Page](image.png)* |
 
 ## 🚀 Getting Started
 
