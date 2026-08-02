@@ -35,7 +35,7 @@ the UI components, and the checkout simulation.
 
 ## 🎥 Live Demo
 
-👉 **[https://your-demo-link.vercel.app](https://your-demo-link.vercel.app)**
+👉 **https://urban-cart-blush.vercel.app/**
 
 ## 📸 Screenshots
 
