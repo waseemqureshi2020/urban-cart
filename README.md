@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Urban Cart – Modern Ecommerce Storefront
 
-## Getting Started
+A fully custom, frontend‑only ecommerce store built with Next.js, TypeScript, and Tailwind CSS.  
+It's a complete shopping experience: product catalogue, category filtering, cart with localStorage, and a mock checkout flow.
 
-First, run the development server:
+I built this as the second piece of my portfolio to show that I don't need a pre‑built platform
+to create a professional online store. Everything here is hand‑coded – the product data, the cart logic,
+the UI components, and the checkout simulation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ What it does
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Product catalogue** – 8 products across multiple categories (shoes, bags, electronics, clothing, accessories).
+- **Category filtering & sorting** – filter by category, sort by price or rating.
+- **Product detail pages** – image gallery, description, ratings, add‑to‑cart button.
+- **Full shopping cart** – add, remove, update quantities, all saved in `localStorage` so it survives refreshes.
+- **Mock checkout** – a realistic payment form that simulates placing an order (no real payment processing, but it looks and feels like the real thing).
+- **Responsive design** – works on mobile, tablet, and desktop without hiccups.
+- **Subtle animations** – page transitions, hover effects, and scroll‑triggered reveals that make the store feel polished.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧰 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 14** – Pages Router, client‑side navigation
+- **TypeScript** – strict mode, fully typed
+- **Tailwind CSS v3** – utility‑first styling, custom components via `@layer`
+- **Framer Motion** – smooth page animations and layout transitions
+- **React Icons** – crisp SVG icons throughout
+- **React Hot Toast** – toast notifications for cart actions
+- **localStorage** – cart persistence without a backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎥 Live Demo
 
-## Deploy on Vercel
+👉 **[https://your-demo-link.vercel.app](https://your-demo-link.vercel.app)**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📸 Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Homepage | Product Page | Cart |
+|----------|-------------|------|
+|*![Homepage](image-1.png)* *![Product Page](image.png)* | *![Checkout Page](image-2.png)*
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/urban-cart.git
+   cd urban-cart
